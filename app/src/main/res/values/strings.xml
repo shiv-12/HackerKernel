@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KARMA</string>
+    <string name="login_preference">com.example.hackerkernel_login</string>
+    <string name="login_status_preference">com.example.hackerkernel_login_status</string>
+</resources>

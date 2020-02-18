@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    tools:context=".profile">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/profile"
+        android:transitionName="imagee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/horilin"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textcolor"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:text="Paul"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textcolor"
+                android:textAlignment="center"
+                android:text="New York City"
+                android:paddingTop="5dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textcolor"
+                android:textAlignment="center"
+                android:text="+917898337488"
+                android:paddingTop="5dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interest"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/textcolor"
+                android:textAlignment="center"
+                android:text="Football"
+                android:paddingTop="5dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+      <Switch
+          android:layout_width="320dp"
+          android:layout_height="45dp"
+          android:layout_centerHorizontal="true"
+          android:paddingRight="30dp"
+          android:paddingLeft="40dp"
+          android:text="Notifications"
+          android:textSize="15dp"
+          android:layout_below="@+id/horilin"
+          android:layout_marginTop="40dp"
+          android:textOn="ON"
+          android:id="@+id/switchh"
+          android:paddingBottom="1dp"
+          android:textOff="OFF"
+          android:fontFamily="@font/open_sans_semibold"
+          />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/switchh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/open_sans_semibold"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="LOG_OUT"
+        android:onClick="logout"
+        android:textColor="#ffffff"
+        android:textSize="13dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
